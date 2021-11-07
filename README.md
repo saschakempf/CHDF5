@@ -3,5 +3,5 @@ This is a Swift package manager module map for HDF5. It assumes that you install
 
 To use add this to your `Package.swift` file dependencies: 
 ```swift
-.Package(url: "https://github.com/aleph7/CHDF5.git", majorVersion: 1)
+.Package(url: "git@github.com:saschakempf/CHDF5.git", from: "1.1.0")
 ```
